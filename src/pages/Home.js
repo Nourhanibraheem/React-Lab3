@@ -34,10 +34,5 @@ export default function MoviesDetails() {
 
 }
 
-{/* <div className="accordion ">
-    <p className=" accordion-item fw-light card-text">
-        {movie.overview} </p>
-</div> */}
-
 
 

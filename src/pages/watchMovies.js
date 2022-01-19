@@ -19,14 +19,14 @@ export default function WatchMovie() {
       <h2 className="head">Movie Details:</h2>
       <img src={`https://image.tmdb.org/t/p/w500/${details.poster_path}`} style={{ width: 150 }} className=" card-img-top" alt="..." />
       <div>
-      <h4  className="fw-bold">Name :</h4>
-      <p className="fw-light">{details.title}</p>
+        <h4 className="fw-bold">Name :</h4>
+        <p className="fw-light">{details.title}</p>
       </div>
       <div>
-      <h4 className="fw-bold">OverView : </h4>
-      <p className="fw-light"> 
-      {details.overview}
-      </p>
+        <h4 className="fw-bold">OverView : </h4>
+        <p className="fw-light">
+          {details.overview}
+        </p>
       </div>
     </div>
   );
