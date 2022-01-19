@@ -1,0 +1,22 @@
+body{
+    background-color:#FFF5E1 ;
+}
+.head{
+    margin: 30px 0;
+    color: #494747;
+}
+.passWord{
+    position: relative;
+}
+.icon{
+    position: absolute;
+    top: 30%;
+    right: 3%;
+    cursor: pointer;
+}
+.Mov{
+    background-color: #FFF5E1;
+    padding: 10px;
+    border: none;
+}
+
